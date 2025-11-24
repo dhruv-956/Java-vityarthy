@@ -1,6 +1,7 @@
 # Campus Course & Records Manager (CCRM)
 
-**Author:** [Ekjot Singh]
+**Author:** [Dhruv Ghongade]
+**Registration Number:** [24BAS10009]
 **Version:** 1.0.0
 
 ---
