@@ -4,7 +4,7 @@ import java.util.List;
 import edu.ccrm.domain.Course;
 
 public class CourseService {
-    private List<Course> courses = new ArrayList<>();
+    private final List<Course> courses = new ArrayList<>();
     
     public void addCourse(Course c) {
         courses.add(c);

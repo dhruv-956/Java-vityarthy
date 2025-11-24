@@ -5,10 +5,10 @@ import edu.ccrm.service.*;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        StudentService studentService = new StudentService();
-        CourseService courseService = new CourseService();
-        int choice;
+        try (Scanner sc = new Scanner(System.in)) {
+            StudentService studentService = new StudentService();
+            CourseService courseService = new CourseService();
+            int choice;
         
         do {
             System.out.println("\n=== CCRM MENU ===");
@@ -67,7 +67,8 @@ public class Main {
                 default -> System.out.println("Invalid choice!");
             }
         } while (choice != 0);
-
-        sc.close();
+        } catch (Exception e) {
+            System.err.println("An error occurred: " + e.getMessage());
+        }
     }
 }

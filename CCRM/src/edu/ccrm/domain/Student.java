@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
-    private int id;
+    private final int id;
     private String regNo;
     private String fullName;
     private String email;
     private boolean active;
-    private LocalDate createdOn;
-    private List<Course> enrolledCourses;
+    private final LocalDate createdOn;
+    private final List<Course> enrolledCourses;
     
     public Student(int id, String regNo, String fullName, String email) {
         this.id = id;

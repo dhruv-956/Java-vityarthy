@@ -4,7 +4,7 @@ import java.util.List;
 import edu.ccrm.domain.Student;
 
 public class StudentService {
-    private List<Student> students = new ArrayList<>();
+    private final List<Student> students = new ArrayList<>();
     private int nextId = 1;
     
     public int getNextId() {
