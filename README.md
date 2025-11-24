@@ -31,7 +31,7 @@ This project serves as a practical demonstration of Java SE capabilities, from f
 ### Steps
 1.  Clone the repository to your local machine:
     ```bash
-    git clone [Your Git Repository URL]
+    git clone https://github.com/dhruv-956/Java-vityarthy.git
     ```
 2.  Open the project in your IDE (e.g., Eclipse).
 3.  Locate the main class at `edu.ccrm.cli.Main` and run it.
