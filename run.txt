@@ -1,0 +1,5 @@
+cd path\to\CCRM
+
+javac -d bin src\edu\ccrm\cli\*.java src\edu\ccrm\domain\*.java src\edu\ccrm\service\*.java
+
+java -cp bin edu.ccrm.cli.Main
